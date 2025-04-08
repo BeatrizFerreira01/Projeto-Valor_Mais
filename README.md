@@ -1,93 +1,89 @@
-# 📱 Valor+
+# 📄 Projeto Valor+
 
-**Valor+** é um aplicativo mobile desenvolvido em **React Native** com **Expo**, que ajuda o usuário a calcular rapidamente o novo valor de um produto após um aumento percentual.
-
----
-
-## 🧐 Objetivo
-Permitir que o usuário:
-- Insira o **nome do produto**;
-- Informe o **valor atual** do produto;
-- Digite o **percentual de aumento** desejado;
-- Visualize o **novo valor** do produto, incluindo o valor do aumento e todos os detalhes do cálculo.
+**Aplicativo de Cálculo de Aumento de Preço**  
+Projeto desenvolvido para a disciplina de **Mobile Application Development**.
 
 ---
 
-## 📜 Funcionalidades
-- Formulário simples com validação de campos;
-- Cálculo automático do novo valor;
-- Visual moderno e responsivo;
-- Tela de resultado clara e organizada.
+## 🚀 Tecnologias Usadas
+- React Native
+- Expo
+- JavaScript (ES6+)
+- Expo Go (para testes em dispositivos móveis)
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 🛠️ Como Rodar o Projeto
 
-### 📌 Pré-requisitos
-Certifique-se de ter instalado:
-- [Node.js](https://nodejs.org/)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+### 1. Pré-requisitos
+- Node.js instalado
+- Expo CLI instalado
+- Celular com o app **Expo Go** ou emulador Android/iOS
 
-### 🔻 Instalação
+### 2. Clonar o repositório
 ```bash
 git clone https://github.com/BeatrizFerreira01/APP-Valor_Mais.git
+```
+
+### 3. Navegar até o projeto
+```bash
 cd APP-Valor_Mais
+```
+
+### 4. Instalar dependências
+```bash
 npm install
 ```
 
-### ▶️ Executar
+### 5. Executar o projeto
 ```bash
 expo start
 ```
 
-Abra o aplicativo **Expo Go** no seu celular e escaneie o QR Code para visualizar.
+Abra o **Expo Go** no seu celular e escaneie o QR Code para visualizar o app.
 
 ---
 
-## 📂 Estrutura do Projeto
-```
-valorplus-atualizador/
-│-- App.js                # Arquivo principal que chama a HomeScreen
-│-- app.json              # Configurações do projeto
-│-- index.js              # Ponto de entrada do aplicativo
-│-- package.json          # Dependências
-│
-├── assets/               # Imagens e ícones
-│   ├── calculadora_logo.png
-│   └── ...
-│
-├── components/           # Componentes reutilizáveis
-│   └── Resultado.js
-│
-└── screens/              # Telas principais
-    └── HomeScreen.js
-```
+## 📱 Funcionalidades do App
 
----
-
-## 🛠️ Tecnologias Utilizadas
-- **React Native**
-- **Expo**
-- **JavaScript**
+| Função | Descrição |
+|:------:|:---------|
+| Inserir Nome do Produto | Campo para digitar o nome do produto. |
+| Inserir Valor do Produto | Campo para digitar o valor original do produto. |
+| Inserir Percentual de Aumento | Campo para digitar a porcentagem de aumento desejada. |
+| Calcular Novo Valor | Botão que calcula e exibe o novo valor do produto. |
+| Exibir Resultado | Mostra o valor original, o percentual de aumento, o valor do aumento e o novo valor final. |
 
 ---
 
 ## 🎨 Layout
-| Formulário de Entrada         | Resultado Final                |
-|-------------------------------|---------------------------------|
-| Nome do Produto               | Nome: Produto X                |
-| Valor: R$100                  | Valor Original: R$100,00       |
-| Aumento: 10%                  | Aumento: 10%                   |
-| ▶️ Novo Valor: R$110,00     | Valor do Aumento: R$10,00      |
+
+| Tela Inicial                  | Tela de Resultado              |
+|:------------------------------:|:-------------------------------:|
+| Nome do Produto, Valor e Aumento | Exibe o novo valor calculado |
 
 ---
 
-## 📚 Licença
-Este projeto está sob a Licença MIT. Sinta-se livre para usar e modificar conforme desejar.
+## 📋 Observações
+
+- Todos os campos são obrigatórios.
+- Caso algum campo não seja preenchido, o app exibirá um alerta solicitando o preenchimento correto.
+- O app foi pensado para ser simples, intuitivo e responsivo.
+- O objetivo principal foi praticar conceitos de **React Native** e **Expo**.
 
 ---
 
 ## 👩‍💻 Autora
-Desenvolvido por **Beatriz Ferreira Cruz** 💡
+- **Beatriz Ferreira Cruz**
+
+---
+
+## 📝 Observações Finais
+
+Este projeto foi desenvolvido como parte da disciplina de **Mobile Application Development** no curso de graduação, focando nos conceitos de:
+- Desenvolvimento de aplicações móveis usando React Native.
+- Organização de projetos e componentes.
+- Estilização com StyleSheet no React Native.
+- Boas práticas de entrada de dados e validação de formulários.
 
 ---
