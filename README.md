@@ -73,7 +73,7 @@ Abra o **Expo Go** no seu celular e escaneie o QR Code para visualizar o app.
 
 ---
 
-## 👩‍💻 Autora
+## 👩‍💻 Desenvolvedora
 - **Beatriz Ferreira Cruz**
 
 ---
