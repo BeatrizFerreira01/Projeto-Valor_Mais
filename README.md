@@ -22,7 +22,7 @@ Projeto desenvolvido para a disciplina de **Mobile Application Development**.
 
 ### 2. Clonar o repositório
 ```bash
-git clone https://github.com/BeatrizFerreira01/APP-Valor_Mais.git
+git clone https://github.com/BeatrizFerreira01/Projeto-Valor_Mais.git
 ```
 
 ### 3. Navegar até o projeto
