@@ -27,7 +27,7 @@ git clone https://github.com/BeatrizFerreira01/Projeto-Valor_Mais.git
 
 ### 3. Navegar até o projeto
 ```bash
-cd APP-Valor_Mais
+cd Projeto-Valor_Mais
 ```
 
 ### 4. Instalar dependências
